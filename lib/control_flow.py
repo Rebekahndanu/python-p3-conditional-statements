@@ -6,7 +6,7 @@ def admin_login(username, password):
         return "Access granted"
     else:
         return "Access denied"
-
+admin_login("admin", "12345")
 
 def hows_the_weather(temperature):
     # your code here
@@ -18,7 +18,7 @@ def hows_the_weather(temperature):
         return "It's too dang hot out there!"
     else:
         return "It's perfect out there!"
-        
+hows_the_weather(33)       
 
 
 def fizzbuzz(num):
@@ -31,7 +31,7 @@ def fizzbuzz(num):
         return "Buzz"
     else:
         return num
-
+fizzbuzz(15)
 
 def calculator(operation, num1, num2):
     # your code here
@@ -46,4 +46,4 @@ def calculator(operation, num1, num2):
     else:
         print("Invalid operation!")
         return None
-
+calculator("*", 3, 2)
